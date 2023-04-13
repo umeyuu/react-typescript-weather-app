@@ -1,9 +1,14 @@
+import Title from './components/Title';
+import Form from './components/Form';
+import Results from './components/Results';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <Title/>
+      <Form/>
+      <Results/>
     </div>
   );
 }
